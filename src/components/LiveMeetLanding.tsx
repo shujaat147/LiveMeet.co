@@ -302,11 +302,11 @@ const LiveMeetLanding = () => {
                       />
                     </div>
                   )}
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:shadow-glow transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:shadow-glow transition-all duration-300 mx-auto">
                     <feature.icon className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-xl font-semibold">{feature.title}</h3>
-                  <p className="text-muted-foreground">{feature.description}</p>
+                  <h3 className="text-xl font-semibold text-center">{feature.title}</h3>
+                  <p className="text-muted-foreground text-center">{feature.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -484,38 +484,32 @@ const LiveMeetLanding = () => {
               </Card>
             ))}
           </div>
-
-          <div className="text-center mt-12">
-            <p className="text-muted-foreground">
-              Supervised by{" "}
-              <span className="font-semibold text-foreground">
-                Ms. Yusra Shahina
-              </span>
-            </p>
-            <p className="text-sm text-muted-foreground mt-1">
-              Department of Computer Science, DHA Suffa University
-            </p>
-          </div>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="border-t py-[18px]">
         <div className="container">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-2">
+          <div className="flex flex-col md:flex-row items-center md:items-stretch justify-between relative">
+            {/* Left */}
+            <div className="w-full md:w-1/3 flex justify-center md:justify-start items-center mb-2 md:mb-0">
               <img
                 src={logoImage}
                 alt="LiveMeet Logo"
                 className="h-10 w-auto"
               />
             </div>
-            <div className="text-center">
-              <p className="text-sm text-muted-foreground">
+            {/* Center */}
+            <div
+              className="w-full md:w-1/3 flex justify-center items-center mb-2 md:mb-0
+        md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:static md:translate-x-0 md:translate-y-0"
+            >
+              <p className="text-sm text-muted-foreground text-center whitespace-nowrap tracking-wide">
                 © 2025 Team LiveMeet
               </p>
             </div>
-            <div className="flex space-x-4">
+            {/* Right */}
+            <div className="w-full md:w-1/3 flex justify-center md:justify-end items-center space-x-4">
               <Button variant="ghost" size="sm">
                 Privacy Policy
               </Button>
