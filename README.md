@@ -1,73 +1,91 @@
-# Welcome to your LiveMeet
+# LiveMeet – Real-Time Multilingual Communication
 
-## Project info
+[![Deploy](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)](https://shujaat147.github.io/LiveMeet.co/)
+[![Mobile App Code](https://img.shields.io/badge/Original%20App%20Code-GitHub-blue)](https://github.com/shujaat147/LiveMeet)
 
-**URL**: https://lovable.dev/projects/7dffaee7-3e48-4f18-9076-221d8ed688ca
+## 🚀 Project Overview
 
-## How can I edit this code?
+**LiveMeet** is a modern, cross-platform web application designed to break language barriers with real-time multilingual communication, secure chats, instant translation, and integrated voice calling. Built as a Final Year Project at DHA Suffa University, LiveMeet brings seamless and secure global conversations to everyone.
 
-There are several ways of editing your application.
+- 🌎 **Real-time text and image translation**
+- 🔒 **End-to-end encrypted chat**
+- 📞 **Voice calling & group chat support**
+- ⚡ **Instant download and QR code access**
 
-**Use Lovable**
+> 🔗 **Live Site:** [https://shujaat147.github.io/LiveMeet.co/](https://shujaat147.github.io/LiveMeet.co/)  
+> 📱 **Original Mobile App Code:** [github.com/shujaat147/LiveMeet](https://github.com/shujaat147/LiveMeet)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7dffaee7-3e48-4f18-9076-221d8ed688ca) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- [Vite](https://vitejs.dev/) – Blazing-fast build tool
+- [React](https://react.dev/) – Modern UI library
+- [TypeScript](https://www.typescriptlang.org/) – Type-safe JavaScript
+- [shadcn/ui](https://ui.shadcn.com/) – Styled React components
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📸 Website Features
 
-Follow these steps:
+- **Live Chat Translation:** Instantly translate text messages in 70+ languages.
+- **Image OCR Translation:** Upload images for OCR-powered instant translation.
+- **Voice Calling:** High-quality voice communication.
+- **Group Chats:** Unlimited participants with multilingual support.
+- **End-to-End Encryption:** Military-grade security for your conversations.
+- **APK Download & QR Code:** Download the Android app directly or via QR code.
+- **Responsive & Modern UI:** Designed with Tailwind and shadcn/ui.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚦 Getting Started (Local Development)
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **Clone this repository**
+    ```sh
+    git clone https://github.com/shujaat147/LiveMeet.co.git
+    cd LiveMeet.co
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+2. **Install dependencies**
+    ```sh
+    npm install
+    ```
 
-**Edit a file directly in GitHub**
+3. **Start the dev server**
+    ```sh
+    npm run dev
+    ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+4. **Open in your browser:**  
+    Visit [http://localhost:5173](http://localhost:5173)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Build & Deploy
 
-## What technologies are used for this project?
+- **Build for production:**
+    ```sh
+    npm run build
+    ```
 
-This project is built with:
+- **Deploy:**  
+  This project uses GitHub Actions for automatic deployment to GitHub Pages.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## ✨ Credits & Original App
 
-Simply open [Lovable](https://lovable.dev/projects/7dffaee7-3e48-4f18-9076-221d8ed688ca) and click on Share -> Publish.
+- **FYP Team, DHA Suffa University**  
+- [Mobile App Source Code (React Native + Firebase)](https://github.com/shujaat147/LiveMeet)
+- Website maintained by the LiveMeet FYP team.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📄 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is for educational and demonstration purposes.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+> © 2025 LiveMeet Team at DHA Suffa University
