@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/LiveMeet.co/',      // <-- Correct place
+  base: '/livemeet.co/',      // <-- Correct place
   server: {
     host: "::",
     port: 8080,
