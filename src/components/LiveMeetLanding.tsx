@@ -502,7 +502,7 @@ const LiveMeetLanding = () => {
             {/* Center */}
             <div
               className="w-full md:w-1/3 flex justify-center items-center mb-2 md:mb-0
-        md:absolute md:left-1/2 md:top-1/2 md:-translate-y-1/2 md:static md:translate-y-0"
+        md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:static sm:translate-x-0 md:translate-y-0"
             >
               <p className="text-sm text-muted-foreground text-center whitespace-nowrap tracking-wide">
                 © 2025 Team LiveMeet
