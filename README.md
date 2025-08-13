@@ -1,6 +1,6 @@
 # LiveMeet – Real-Time Multilingual Communication
 
-[![Deploy](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)](https://shujaat147.github.io/LiveMeet.co/)
+[![Deploy](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)](https://shujaat147.github.io/livemeet.co/)
 [![Mobile App Code](https://img.shields.io/badge/Original%20App%20Code-GitHub-blue)](https://github.com/shujaat147/LiveMeet)
 
 ## 🚀 Project Overview
@@ -12,7 +12,7 @@
 - 📞 **Voice calling & group chat support**
 - ⚡ **Instant download and QR code access**
 
-> 🔗 **Live Site:** [https://shujaat147.github.io/LiveMeet.co/](https://shujaat147.github.io/LiveMeet.co/)  
+> 🔗 **Live Site:** [https://shujaat147.github.io/LiveMeet.co/](https://shujaat147.github.io/livemeet.co/)  
 > 📱 **Original Mobile App Code:** [github.com/shujaat147/LiveMeet](https://github.com/shujaat147/LiveMeet)
 
 ---
