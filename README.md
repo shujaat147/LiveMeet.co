@@ -12,7 +12,7 @@
 - 📞 **Voice calling & group chat support**
 - ⚡ **Instant download and QR code access**
 
-> 🔗 **Live Site:** [https://shujaat147.github.io/LiveMeet.co/](https://shujaat147.github.io/livemeet.co/)  
+> 🔗 **Live Site:** [https://shujaat147.github.io/livemeet.co/](https://shujaat147.github.io/livemeet.co/)  
 > 📱 **Original Mobile App Code:** [github.com/shujaat147/LiveMeet](https://github.com/shujaat147/LiveMeet)
 
 ---
